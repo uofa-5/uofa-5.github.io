@@ -44,8 +44,8 @@ h2 {		     /* This styles the headers within the page */
 	padding: 0;
 	margin: 0;
 	text-align: left;
-	border-bottom-style: dashed;
-	border-bottom-size: 2px;
+	border-bottom-style: solid;
+	border-bottom-size: .5px;
 
 }
 
@@ -86,8 +86,8 @@ div.section {
 
 /* This alters the appearance of the div with id="minileft", the div containing the images */
 .minileft {
-	float: left;
-	height: 100%;
+	/*float: left;*/
+	height: 150%;
 	margin-bottom:1.5em;
 	margin-right: 1em;
 }
