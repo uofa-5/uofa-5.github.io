@@ -22,7 +22,7 @@ html, body {
 
 body{
 	font: 130%/1.3 TrebuchetMS,Arial,sans-serif;  /* Default fonts */
-	text-align: left; /* Alignment of the text */
+	text-align: center; /* Alignment of the text */
 	color: black; /* Main text color */
 	background: white; /* Main text background color */
 	padding-bottom: 20px; /* You can set padding or margin for one side of an element at a time */
@@ -43,7 +43,7 @@ h2 {		     /* This styles the headers within the page */
 	font: bold 1.1em 'Source Sans Pro',Arial, Sans-Serif;
 	padding: 0;
 	margin: 0;
-	text-align: left;
+	text-align: center;
 	border-bottom-style: solid;
 	border-bottom-size: .5px;
 
@@ -54,7 +54,7 @@ h2 {		     /* This styles the headers within the page */
 div.section {
 	padding: 1em;
 	margin-bottom: 0;
-	text-align: justify;
+	text-align: center;
 
 }
 
