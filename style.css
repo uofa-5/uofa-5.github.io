@@ -22,7 +22,7 @@ html, body {
 
 body{
 	font: 130%/1.3 TrebuchetMS,Arial,sans-serif;  /* Default fonts */
-	text-align: left; /* Alignment of the text */
+	text-align: center; /* Alignment of the text */
 	color: black; /* Main text color */
 	background: white; /* Main text background color */
 	padding-bottom: 20px; /* You can set padding or margin for one side of an element at a time */
@@ -35,7 +35,7 @@ a {                  /* A stands for link, so this section is setting the defaul
 
 h1 {		     /* This styles the header at the top of the page */
 	font: bold 2.1em 'Source Sans Pro',Arial, Sans-Serif;
-	text-align: left;
+	text-align: center;
 	color: white;
 }
 
@@ -43,6 +43,10 @@ h2 {		     /* This styles the headers within the page */
 	font: bold 1.1em 'Source Sans Pro',Arial, Sans-Serif;
 	padding: 0;
 	margin: 0;
+	text-align: center;
+	border-bottom-style: solid;
+	border-bottom-size: .5px;
+
 }
 
 
@@ -50,13 +54,13 @@ h2 {		     /* This styles the headers within the page */
 div.section {
 	padding: 1em;
 	margin-bottom: 0;
-	text-align: justify;
+	text-align: center;
 
 }
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
 #plan, #more {
-	background:#000080;
+	background:#ff69b4;
 	color: white;
 	font: 'Source Sans Pro',Arial, Sans-Serif;
 	background-image: none;  /* replace none with url('image-url') to set a background image  */
@@ -82,8 +86,8 @@ div.section {
 
 /* This alters the appearance of the div with id="minileft", the div containing the images */
 .minileft {
-	float: left;
-	height: 100%;
+	/*float: left;*/
+	height: 150%;
 	margin-bottom:1.5em;
 	margin-right: 1em;
 }
