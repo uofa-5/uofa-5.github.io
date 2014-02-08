@@ -35,7 +35,7 @@ a {                  /* A stands for link, so this section is setting the defaul
 
 h1 {		     /* This styles the header at the top of the page */
 	font: bold 2.1em 'Source Sans Pro',Arial, Sans-Serif;
-	text-align: left;
+	text-align: center;
 	color: white;
 }
 
@@ -43,6 +43,10 @@ h2 {		     /* This styles the headers within the page */
 	font: bold 1.1em 'Source Sans Pro',Arial, Sans-Serif;
 	padding: 0;
 	margin: 0;
+	text-align: left;
+	border-bottom-style: dashed;
+	border-bottom-size: 2px;
+
 }
 
 
@@ -56,7 +60,7 @@ div.section {
 
 /* If we want the divs with ids plan and more to look the same, we can put them together */
 #plan, #more {
-	background:#000080;
+	background:#ff69b4;
 	color: white;
 	font: 'Source Sans Pro',Arial, Sans-Serif;
 	background-image: none;  /* replace none with url('image-url') to set a background image  */
